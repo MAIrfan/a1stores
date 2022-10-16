@@ -6,7 +6,7 @@ module.exports = merge(common, {
   devtool: 'eval-cheap-source-map',
   devServer: {
     historyApiFallback: true,
-    contentBase: './dist',
+    contentBase: './build',
     headers: {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
